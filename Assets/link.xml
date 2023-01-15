@@ -1,0 +1,3 @@
+<linker>
+	<assembly fullname="MixFramework" preserve="all" />
+</linker>
