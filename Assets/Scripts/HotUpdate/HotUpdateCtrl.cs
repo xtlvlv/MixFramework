@@ -45,10 +45,13 @@ namespace BaseFramework
 
         public async void CheckUpdate()
         {
-            //重新配置热更路径(开发方便用, 打包移动端需要注释注释)
-            AssetComponentConfig.HotfixPath = Application.dataPath + "/../DownloadBundles/";
+            //重新配置热更路径(开发方便用, 正式打包要注释)
+            AssetComponentConfig.BundleServerUrl = "file://" + Application.dataPath + "/../BuildBundles/";
+            AssetComponentConfig.HotfixPath      = Application.dataPath + "/../DownloadBundles/";
+            Debug.Log($"下载远端路径：{AssetComponentConfig.BundleServerUrl}");
+            Debug.Log($"本地存储路径：{AssetComponentConfig.HotfixPath}");
+
             AssetComponentConfig.DefaultBundlePackageName = "MainBundle";
-            // AssetComponentConfig.BundleServerUrl = "file://"+"/../BuildBundles/";
             
             bool needUpdate = await IsNeedUpdateBundle();
             if (!needUpdate)
@@ -76,7 +79,6 @@ namespace BaseFramework
             Dictionary<string, bool> updatePackageBundle = new Dictionary<string, bool>()
             {
                 {AssetComponentConfig.DefaultBundlePackageName, false},
-                {"Level2", false},
                 {"DLL", false}
                 //{"OriginFile", false},
             };
@@ -125,10 +127,7 @@ namespace BaseFramework
         private async ETTask InitializePackage()
         {
             await AssetComponent.Initialize(AssetComponentConfig.DefaultBundlePackageName);
-            await AssetComponent.Initialize("Level2");
             await AssetComponent.Initialize("DLL");
-
-            // await InitUI();
         }
 
         void LoadHotfix()
@@ -138,12 +137,7 @@ namespace BaseFramework
             byte[] assBytes;
             var hotfixDll = AssetMgr.Load<TextAsset>("Assets/ResHotfix/DLL/Hotfix.dll.bytes", "DLL");
             assBytes = (hotfixDll).bytes;
-            var ass = Assembly.Load(assBytes);
-			
-            // Type entryType = ass.GetType("HotEntry");
-            // MethodInfo method = entryType.GetMethod("Entry");
-            // Action mainFunc = (Action)Delegate.CreateDelegate(typeof(Action), method);
-            // mainFunc();
+            Assembly.Load(assBytes);
             
             SplashCtrl.Instance.RemoveSplashView();
             

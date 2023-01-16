@@ -35,7 +35,7 @@ namespace ScriptsHotfix
 
         private void Start()
         {
-            DontDestroyOnLoad(Camera.main);
+            LoginCtrl.Instance.ShowLoginView();
         }
 
         private void Update()
