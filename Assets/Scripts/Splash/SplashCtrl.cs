@@ -7,13 +7,15 @@ namespace BaseFramework
     {
         private SplashView _splashView;
 
+        private string _path = "SplashUI/SplashUI";
         public SplashCtrl()
         {
         }
 
         public void ShowSplashView()
         {
-            var uiGo = Object.Instantiate(Resources.Load<GameObject>("SplashUI"));
+            Log.Warning("Show");
+            var uiGo = SimplePool.Spawn(Resources.Load<GameObject>(_path), GameObject.Find("UIRoot").transform);
             _splashView = uiGo.GetComponent<SplashView>();
         }
         public void RemoveSplashView()

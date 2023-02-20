@@ -2,7 +2,9 @@
 {
     public class ViewId
     {
-        public const int LoginUI = 1;
+        public const int MainUI = 1;
+        public const int AdRegainUI = 2;
+
     }
 
     public enum ViewLayer

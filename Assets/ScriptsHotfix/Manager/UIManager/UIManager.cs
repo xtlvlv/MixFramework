@@ -81,7 +81,7 @@ namespace ScriptsHotfix
                 }
                 else
                 {
-                    Log.Error("Without this UI in config, ViewId={0}", Enum.GetName(typeof(ViewId), viewId));
+                    Log.Error("Without this UI in config, ViewId={0}", viewId);
                 }
             }
 

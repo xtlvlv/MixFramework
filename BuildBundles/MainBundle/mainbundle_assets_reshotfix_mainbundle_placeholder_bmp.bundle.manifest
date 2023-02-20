@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3675068566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: af078bac75494387fefc24ddbb3c0505
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/placeholder.bmp
+Dependencies: []

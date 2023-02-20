@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 40482449
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mainbundle_assets_reshotfix_mainbundle_hotentry_prefab.bundle
+      Dependencies: {}
+    Info_1:
+      Name: mainbundle_assets_reshotfix_mainbundle_placeholder_bmp.bundle
+      Dependencies: {}
+    Info_2:
+      Name: mainbundle_assets_reshotfix_mainbundle_exceldata_viewconfig_json.bundle
+      Dependencies: {}
+    Info_3:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_loginui_loginui_prefab.bundle
+      Dependencies: {}

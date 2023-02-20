@@ -46,32 +46,34 @@ namespace BaseFramework
         public async void CheckUpdate()
         {
             //重新配置热更路径(开发方便用, 正式打包要注释)
-            AssetComponentConfig.BundleServerUrl = "file://" + Application.dataPath + "/../BuildBundles/";
-            AssetComponentConfig.HotfixPath      = Application.dataPath + "/../DownloadBundles/";
-            Debug.Log($"下载远端路径：{AssetComponentConfig.BundleServerUrl}");
-            Debug.Log($"本地存储路径：{AssetComponentConfig.HotfixPath}");
-
+            // AssetComponentConfig.BundleServerUrl = "file://" + Application.dataPath + "/../BuildBundles/";
+            // AssetComponentConfig.HotfixPath      = Application.dataPath + "/../DownloadBundles/";
+            // Debug.Log($"下载远端路径：{AssetComponentConfig.BundleServerUrl}");
+            // Debug.Log($"本地存储路径：{AssetComponentConfig.HotfixPath}");
+            //
             AssetComponentConfig.DefaultBundlePackageName = "MainBundle";
-            
-            bool needUpdate = await IsNeedUpdateBundle();
-            if (!needUpdate)
-            {
-                Log.Info("no need to update");
-                await InitializePackage();
-                LoadHotfix();
-            }
-            else
-            {
-                string tips = string.Format("需要更新{0}, 是否更新？", _updateBundleDataInfo.NeedUpdateSize.FormatByte() );
-                MessageBox.Show("提示", tips,() =>
-                {
-                    this.ShowDownloadView();
-                    UpdateBundle(); // 开始更新
-                }, () =>
-                {
-                    Application.Quit();
-                },"更新","退出");
-            }
+            //
+            // bool needUpdate = await IsNeedUpdateBundle();
+            // if (!needUpdate)
+            // {
+            //     Log.Info("no need to update");
+            //     await InitializePackage();
+            //     LoadHotfix();
+            // }
+            // else
+            // {
+            //     string tips = string.Format("需要更新{0}, 是否更新？", _updateBundleDataInfo.NeedUpdateSize.FormatByte() );
+            //     MessageBox.Show("提示", tips,() =>
+            //     {
+            //         this.ShowDownloadView();
+            //         UpdateBundle(); // 开始更新
+            //     }, () =>
+            //     {
+            //         Application.Quit();
+            //     },"更新","退出");
+            // }
+            await InitializePackage();
+            LoadHotfix();
         }
         
         async Task<bool> IsNeedUpdateBundle()
@@ -139,10 +141,10 @@ namespace BaseFramework
             assBytes = (hotfixDll).bytes;
             Assembly.Load(assBytes);
             
-            SplashCtrl.Instance.RemoveSplashView();
-            
             var prefab = AssetMgr.Load<GameObject>("Assets/ResHotfix/MainBundle/HotEntry.prefab");
             Object.Instantiate(prefab);
+            
+            // SplashCtrl.Instance.RemoveSplashView();
         }
         
         /// <summary>

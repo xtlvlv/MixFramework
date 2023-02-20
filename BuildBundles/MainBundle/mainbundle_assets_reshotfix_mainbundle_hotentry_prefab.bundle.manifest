@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 346447392
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fecad3837546122d6faf4ea8bfc3724f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 273a5a1313c4e4bdf272d95c71713f93
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 03fa654533284d54b33ae77aee5244e9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/HotEntry.prefab
+Dependencies: []

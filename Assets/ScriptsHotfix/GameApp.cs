@@ -29,13 +29,15 @@ namespace ScriptsHotfix
             GameSingleton.AddSingleton<EventManager>();
             GameSingleton.AddSingleton<InputManager>();
             GameSingleton.AddSingleton<StorageManager>();
+            GameSingleton.AddSingleton<BulletTimeManager>();
+            GameSingleton.AddSingleton<LevelManager>();
 
             DontDestroyOnLoad(this);
         }
 
         private void Start()
         {
-            LoginCtrl.Instance.ShowLoginView();
+            LevelManager.Instance.LoadLevel(1);
         }
 
         private void Update()
