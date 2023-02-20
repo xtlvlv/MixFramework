@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3134213601
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 120fcc3ecfa531abd1ad06da912862fd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/ski.wav
+Dependencies: []

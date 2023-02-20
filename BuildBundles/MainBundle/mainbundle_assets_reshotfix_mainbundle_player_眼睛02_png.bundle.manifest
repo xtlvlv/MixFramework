@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3587069861
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 472c26e19ffe8e145fca45bc555c88f9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/ResHotfix/MainBundle/Player/\u773C\u775B02.png"
+Dependencies: []

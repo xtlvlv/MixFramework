@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1787234171
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 149db4783dc5a7b9c1b43498c24285bb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/UI/MainUI/ADS02.png
+Dependencies: []

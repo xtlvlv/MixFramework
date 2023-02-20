@@ -1,4 +1,4 @@
-﻿using System;
+﻿using BaseFramework;
 using BaseFramework.Core;
 using UnityEngine;
 
@@ -11,10 +11,14 @@ namespace ScriptsHotfix
         private Vector3 _originPos;
         private void Awake()
         {
-            CameraFollow.Instance.SetTarget(Player.transform);
-            _originPos = Player.transform.position;
-            
             MainCtrl.Instance.ShowMainView();
+            if (Player==null)
+            {
+                Log.Error("No Player");
+                Player = transform.Find("Player").gameObject.GetComponent<PlayerController>();
+            }
+            CameraFollow.Instance.SetTarget(Player.gameObject.transform);
+            _originPos = Player.gameObject.transform.position;
         }
 
         private void Start()
@@ -24,7 +28,7 @@ namespace ScriptsHotfix
 
         private void OnDestroy()
         {
-            MainCtrl.Instance.RemoveMainView();
+            // MainCtrl.Instance.RemoveMainView();
         }
 
         public void Regain()

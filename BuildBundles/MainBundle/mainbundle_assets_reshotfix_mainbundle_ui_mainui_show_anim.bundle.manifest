@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1929686980
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 61d0415fc12c6380241ffd160ec175e4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c33d3594fb840798e3bd468c6c9d34d3
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/UI/MainUI/show.anim
+Dependencies: []

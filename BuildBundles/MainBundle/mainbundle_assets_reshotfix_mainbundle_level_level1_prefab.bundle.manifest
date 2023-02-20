@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 808086235
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a8a04bfc11c29ebf86b580db96f20e3d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fcfcdd86643637c4b5ae6c5dd30cb636
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 102
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 853878b5c3904c9a916f2996dfeda69c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 421e599a77964a9687700f83f5a34785, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 765db8f4b297417d974c6db75a8fc28b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9fab3e341ca1487a9cf9a864a428c08f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Level/Level1.prefab
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_bigenemy_prefab.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_midenemy_prefab.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_smallenemy_prefab.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_player_prefab.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_ui_mainui_finish_png.bundle
+- "D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5173\u5361_png.bundle"

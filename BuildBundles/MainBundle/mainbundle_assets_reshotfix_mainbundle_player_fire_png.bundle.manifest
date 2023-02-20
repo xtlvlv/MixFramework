@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1264120181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e97e9f235e3af013a4f5285b5b98c2b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Player/Fire.png
+Dependencies: []

@@ -2,6 +2,7 @@
 using System;
 using BM;
 using ET;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using Object = UnityEngine.Object;
 
@@ -31,18 +32,22 @@ namespace BaseFramework.Core
         public static T Load<T>(string path)
             where T : Object
         {
+            return Resources.Load<T>(path);
             return Load<T>(path, null, null);
         }
+        
 
         public static T Load<T>(string path, string package)
             where T : Object
         {
+            return Resources.Load<T>(path);
             return Load<T>(path, package, null);
         }
         
         private static T Load<T>(string path, string package, Type type)
             where T : Object
         {
+            return Resources.Load<T>(path);
             var ret = AssetComponent.Load<T>(out _, path, package);
             return ret;
         }

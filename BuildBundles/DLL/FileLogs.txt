@@ -1,2 +1,5 @@
-<Assets/ResHotfix/DLL/placeholder.bmp|dll_assets_reshotfix_dll_placeholder_bmp.>
+<Assets/ResHotfix/DLL/Hotfix.dll.bytes|dll_assets_reshotfix_dll_hotfix_dll_bytes.>
+<Assets/ResHotfix/DLL/mscorlib.dll.bytes|dll_assets_reshotfix_dll_mscorlib_dll_bytes.>
+<Assets/ResHotfix/DLL/System.Core.dll.bytes|dll_assets_reshotfix_dll_system_core_dll_bytes.>
+<Assets/ResHotfix/DLL/System.dll.bytes|dll_assets_reshotfix_dll_system_dll_bytes.>
 

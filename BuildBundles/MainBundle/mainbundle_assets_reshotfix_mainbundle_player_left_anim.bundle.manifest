@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1158990275
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe0806b757f5495316eee8a88a496eb9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 77aaac513b69e301ecaf311137de01b4
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Player/left.anim
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_1_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_2_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_3_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_eye_png.bundle
+- "D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_\u811A_png.bundle"

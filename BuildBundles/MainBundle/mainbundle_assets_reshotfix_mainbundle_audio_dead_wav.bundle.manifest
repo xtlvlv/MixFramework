@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 395493995
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dde1c9b5d19bc9bdcc68a8d5434927ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/dead.wav
+Dependencies: []

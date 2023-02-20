@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4074270032
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 47ed0a3eeba90b683b0f0642ee2e9046
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/fever.wav
+Dependencies: []

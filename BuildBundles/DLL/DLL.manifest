@@ -1,7 +1,16 @@
 ManifestFileVersion: 0
-CRC: 2180526061
+CRC: 4142587047
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: dll_assets_reshotfix_dll_placeholder_bmp
+      Name: dll_assets_reshotfix_dll_hotfix_dll_bytes
+      Dependencies: {}
+    Info_1:
+      Name: dll_assets_reshotfix_dll_mscorlib_dll_bytes
+      Dependencies: {}
+    Info_2:
+      Name: dll_assets_reshotfix_dll_system_core_dll_bytes
+      Dependencies: {}
+    Info_3:
+      Name: dll_assets_reshotfix_dll_system_dll_bytes
       Dependencies: {}

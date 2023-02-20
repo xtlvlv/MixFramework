@@ -19,9 +19,9 @@ namespace BaseFramework
 
         public static List<string> AOTMetaAssemblyNames { get; } = new List<string>()
         {
-            "mscorlib.dll",
-            "System.dll",
-            "System.Core.dll",
+            // "mscorlib.dll",
+            // "System.dll",
+            // "System.Core.dll",
         };
         
         public HotUpdateCtrl()
@@ -51,6 +51,8 @@ namespace BaseFramework
             // Debug.Log($"下载远端路径：{AssetComponentConfig.BundleServerUrl}");
             // Debug.Log($"本地存储路径：{AssetComponentConfig.HotfixPath}");
             //
+            // AssetComponentConfig.BundleServerUrl = Application.streamingAssetsPath;
+            // AssetComponentConfig.HotfixPath      = Application.streamingAssetsPath;
             AssetComponentConfig.DefaultBundlePackageName = "MainBundle";
             //
             // bool needUpdate = await IsNeedUpdateBundle();
@@ -128,8 +130,8 @@ namespace BaseFramework
         
         private async ETTask InitializePackage()
         {
-            await AssetComponent.Initialize(AssetComponentConfig.DefaultBundlePackageName);
-            await AssetComponent.Initialize("DLL");
+            // await AssetComponent.Initialize(AssetComponentConfig.DefaultBundlePackageName);
+            // await AssetComponent.Initialize("DLL");
         }
 
         void LoadHotfix()

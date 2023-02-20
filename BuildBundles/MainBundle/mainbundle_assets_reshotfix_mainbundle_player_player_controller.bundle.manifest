@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4080386316
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a6f02c4406ef18af69b07824dae41a72
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Player/Player.controller
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_left_anim.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_right_anim.bundle

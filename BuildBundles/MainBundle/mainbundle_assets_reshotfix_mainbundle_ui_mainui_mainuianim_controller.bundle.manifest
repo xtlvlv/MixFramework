@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1754251926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a5d021b5a10d67fde1ff00ba63878237
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/UI/MainUI/MainUIAnim.controller
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_ui_mainui_show_anim.bundle

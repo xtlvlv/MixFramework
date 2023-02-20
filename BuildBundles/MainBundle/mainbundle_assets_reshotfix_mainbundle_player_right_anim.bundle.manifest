@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 2166922786
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fd624329b2d7cd8d4ac00cc6cfe41e7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 77aaac513b69e301ecaf311137de01b4
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Player/right.anim
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_6_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_7_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_player_8_png.bundle

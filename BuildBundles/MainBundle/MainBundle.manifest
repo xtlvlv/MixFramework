@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 40482449
+CRC: 3419686387
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,8 +9,278 @@ AssetBundleManifest:
       Name: mainbundle_assets_reshotfix_mainbundle_placeholder_bmp.bundle
       Dependencies: {}
     Info_2:
-      Name: mainbundle_assets_reshotfix_mainbundle_exceldata_viewconfig_json.bundle
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_dead_wav.bundle
       Dependencies: {}
     Info_3:
-      Name: mainbundle_assets_reshotfix_mainbundle_ui_loginui_loginui_prefab.bundle
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_fever_wav.bundle
+      Dependencies: {}
+    Info_4:
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_levelup_wav.bundle
+      Dependencies: {}
+    Info_5:
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_music_wav.bundle
+      Dependencies: {}
+    Info_6:
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_perfect_wav.bundle
+      Dependencies: {}
+    Info_7:
+      Name: mainbundle_assets_reshotfix_mainbundle_audio_ski_wav.bundle
+      Dependencies: {}
+    Info_8:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+      Dependencies: {}
+    Info_9:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+      Dependencies: {}
+    Info_10:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+      Dependencies: {}
+    Info_11:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_bigenemy_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+    Info_12:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_midenemy_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+    Info_13:
+      Name: mainbundle_assets_reshotfix_mainbundle_enemy_smallenemy_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+    Info_14:
+      Name: "mainbundle_assets_reshotfix_mainbundle_enemy_\u5934_png.bundle"
+      Dependencies: {}
+    Info_15:
+      Name: "mainbundle_assets_reshotfix_mainbundle_enemy_\u77F3\u5934_png.bundle"
+      Dependencies: {}
+    Info_16:
+      Name: "mainbundle_assets_reshotfix_mainbundle_enemy_\u96EA\u7403\u6295\u5F71_png.bundle"
+      Dependencies: {}
+    Info_17:
+      Name: mainbundle_assets_reshotfix_mainbundle_exceldata_viewconfig_json.bundle
+      Dependencies: {}
+    Info_18:
+      Name: mainbundle_assets_reshotfix_mainbundle_level_level1_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle
+        Dependency_3: mainbundle_assets_reshotfix_mainbundle_enemy_bigenemy_prefab.bundle
+        Dependency_4: mainbundle_assets_reshotfix_mainbundle_enemy_midenemy_prefab.bundle
+        Dependency_5: mainbundle_assets_reshotfix_mainbundle_enemy_smallenemy_prefab.bundle
+        Dependency_6: mainbundle_assets_reshotfix_mainbundle_player_player_prefab.bundle
+        Dependency_7: mainbundle_assets_reshotfix_mainbundle_ui_mainui_finish_png.bundle
+        Dependency_8: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5173\u5361_png.bundle"
+    Info_19:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_1_png.bundle
+      Dependencies: {}
+    Info_20:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_10_png.bundle
+      Dependencies: {}
+    Info_21:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_2_png.bundle
+      Dependencies: {}
+    Info_22:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_3_png.bundle
+      Dependencies: {}
+    Info_23:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_4_png.bundle
+      Dependencies: {}
+    Info_24:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_5_png.bundle
+      Dependencies: {}
+    Info_25:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_6_png.bundle
+      Dependencies: {}
+    Info_26:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_7_png.bundle
+      Dependencies: {}
+    Info_27:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_8_png.bundle
+      Dependencies: {}
+    Info_28:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_9_png.bundle
+      Dependencies: {}
+    Info_29:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_eye_png.bundle
+      Dependencies: {}
+    Info_30:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_fire_png.bundle
+      Dependencies: {}
+    Info_31:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_left_anim.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_player_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_player_2_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_player_3_png.bundle
+        Dependency_3: mainbundle_assets_reshotfix_mainbundle_player_eye_png.bundle
+        Dependency_4: "mainbundle_assets_reshotfix_mainbundle_player_\u811A_png.bundle"
+    Info_32:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_player_controller.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_player_left_anim.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_player_right_anim.bundle
+    Info_33:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_player_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_player_1_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_player_eye_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_player_player_controller.bundle
+        Dependency_3: "mainbundle_assets_reshotfix_mainbundle_player_\u5934_png.bundle"
+        Dependency_4: "mainbundle_assets_reshotfix_mainbundle_player_\u5E3D\u6A90_png.bundle"
+        Dependency_5: "mainbundle_assets_reshotfix_mainbundle_player_\u624B_png.bundle"
+        Dependency_6: "mainbundle_assets_reshotfix_mainbundle_player_\u811A_png.bundle"
+    Info_34:
+      Name: mainbundle_assets_reshotfix_mainbundle_player_right_anim.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_player_6_png.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_player_7_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_player_8_png.bundle
+    Info_35:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u5934_png.bundle"
+      Dependencies: {}
+    Info_36:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u594B\u6597\u72B6\u6001_png.bundle"
+      Dependencies: {}
+    Info_37:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u5E3D\u5B50_png.bundle"
+      Dependencies: {}
+    Info_38:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u5E3D\u6A90_png.bundle"
+      Dependencies: {}
+    Info_39:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u624B_png.bundle"
+      Dependencies: {}
+    Info_40:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u6837\u56FE_png.bundle"
+      Dependencies: {}
+    Info_41:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u773C\u775B01_png.bundle"
+      Dependencies: {}
+    Info_42:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u773C\u775B02_png.bundle"
+      Dependencies: {}
+    Info_43:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u773C\u775B03_png.bundle"
+      Dependencies: {}
+    Info_44:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u811A_png.bundle"
+      Dependencies: {}
+    Info_45:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u8138_png.bundle"
+      Dependencies: {}
+    Info_46:
+      Name: "mainbundle_assets_reshotfix_mainbundle_player_\u96EA\u7403\u53F2\u83B1\u59C6_png.bundle"
+      Dependencies: {}
+    Info_47:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_adregainui_adregainui_prefab.bundle
+      Dependencies: {}
+    Info_48:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_ads_png.bundle
+      Dependencies: {}
+    Info_49:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_ads02_png.bundle
+      Dependencies: {}
+    Info_50:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_confetti_png.bundle
+      Dependencies: {}
+    Info_51:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_finish_png.bundle
+      Dependencies: {}
+    Info_52:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_flare_png.bundle
+      Dependencies: {}
+    Info_53:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_mainui_prefab.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_ui_mainui_mainuianim_controller.bundle
+        Dependency_1: mainbundle_assets_reshotfix_mainbundle_ui_mainui_soundoff_png.bundle
+        Dependency_2: mainbundle_assets_reshotfix_mainbundle_ui_mainui_soundon_png.bundle
+        Dependency_3: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u4E0B\u4E00\u5173\u5361_png.bundle"
+        Dependency_4: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5F53\u524D\u5173\u5361_png.bundle"
+        Dependency_5: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u6559\u7A0B01_png.bundle"
+        Dependency_6: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u6559\u7A0B02_png.bundle"
+        Dependency_7: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u79EF\u5206\u56FE\u6807_1_png.bundle"
+        Dependency_8: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u79EF\u5206\u56FE\u6807_png.bundle"
+    Info_54:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_mainuianim_controller.bundle
+      Dependencies:
+        Dependency_0: mainbundle_assets_reshotfix_mainbundle_ui_mainui_show_anim.bundle
+    Info_55:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_show_anim.bundle
+      Dependencies: {}
+    Info_56:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_soundoff_png.bundle
+      Dependencies: {}
+    Info_57:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_soundon_png.bundle
+      Dependencies: {}
+    Info_58:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_yeah_png.bundle
+      Dependencies: {}
+    Info_59:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_yeah02_png.bundle
+      Dependencies: {}
+    Info_60:
+      Name: mainbundle_assets_reshotfix_mainbundle_ui_mainui_yeahcn1_png.bundle
+      Dependencies: {}
+    Info_61:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u4E0B\u4E00\u5173\u5361_1_png.bundle"
+      Dependencies: {}
+    Info_62:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u4E0B\u4E00\u5173\u5361_png.bundle"
+      Dependencies: {}
+    Info_63:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u4E0B\u4E00\u5173\u536102_1_png.bundle"
+      Dependencies: {}
+    Info_64:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u4E0B\u4E00\u5173\u536102_png.bundle"
+      Dependencies: {}
+    Info_65:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5173\u5361_png.bundle"
+      Dependencies: {}
+    Info_66:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5173\u5361\u6295\u5F71_png.bundle"
+      Dependencies: {}
+    Info_67:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5173\u95ED\u72B6\u6001_png.bundle"
+      Dependencies: {}
+    Info_68:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5F00\u542F\u72B6\u6001_png.bundle"
+      Dependencies: {}
+    Info_69:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u5F53\u524D\u5173\u5361_png.bundle"
+      Dependencies: {}
+    Info_70:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u6559\u7A0B01_png.bundle"
+      Dependencies: {}
+    Info_71:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u6559\u7A0B02_png.bundle"
+      Dependencies: {}
+    Info_72:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u6807\u6CE8_png.bundle"
+      Dependencies: {}
+    Info_73:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u79EF\u5206\u56FE\u6807_1_png.bundle"
+      Dependencies: {}
+    Info_74:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u79EF\u5206\u56FE\u6807_png.bundle"
+      Dependencies: {}
+    Info_75:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u8BBE\u7F6E_1_png.bundle"
+      Dependencies: {}
+    Info_76:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u8BBE\u7F6E_png.bundle"
+      Dependencies: {}
+    Info_77:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u97F3\u4E50_png.bundle"
+      Dependencies: {}
+    Info_78:
+      Name: "mainbundle_assets_reshotfix_mainbundle_ui_mainui_\u97F3\u4E5002_png.bundle"
       Dependencies: {}

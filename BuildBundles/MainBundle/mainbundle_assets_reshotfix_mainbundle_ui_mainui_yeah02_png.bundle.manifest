@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3066228065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea9c5bf84703d264276fe200176175b7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/UI/MainUI/yeah02.png
+Dependencies: []

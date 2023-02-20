@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1069406248
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 331f957ceaa89094a1511c64cd66001b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/music.wav
+Dependencies: []

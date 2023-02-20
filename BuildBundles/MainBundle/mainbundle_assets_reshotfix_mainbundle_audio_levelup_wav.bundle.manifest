@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 325938905
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d37aa4150e1c4f6a542619ba8602f587
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/levelUp.wav
+Dependencies: []

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using BaseFramework.Core;
+﻿using System.Collections.Generic;
+using BaseFramework;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -53,12 +51,10 @@ namespace ScriptsHotfix
             {
                 AudioManager.Instance.PlaySingleSound("Assets/ResHotfix/MainBundle/Audio/ski.wav");
                 Dir.x = Dir.x > 0 ? -ClickXAngle : ClickXAngle;
-                Log.Warning("down");
             }
             
             if (Input.GetMouseButtonUp(0))
             {
-                Log.Warning("up");
                 _pressFrame = 0;
                 Dir.x       = Dir.x > 0 ? ClickXAngle : -ClickXAngle;
                 AudioManager.Instance.StopSingleSound();
@@ -71,7 +67,6 @@ namespace ScriptsHotfix
                 if (_pressFrame>5) // 固定60帧
                 {
                     Speed = PressSpeed;
-                    Log.Warning("press");
                     AudioManager.Instance.PlaySingleSoundNotStop("Assets/ResHotfix/MainBundle/Audio/ski.wav");
                     Dir.x = Dir.x > 0 ? PressXAngle : -PressXAngle;
                 }

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3591754260
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d2e4b11697b5b77c858f0d5462e6ee1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 337cbc6a15a56f8592f32e584f9cac9d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 853878b5c3904c9a916f2996dfeda69c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Enemy/MidEnemy.prefab
+Dependencies:
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_1_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_2_png.bundle
+- D:/Unity/Practice/MixFramework/BuildBundles/MainBundle/mainbundle_assets_reshotfix_mainbundle_enemy_3_png.bundle

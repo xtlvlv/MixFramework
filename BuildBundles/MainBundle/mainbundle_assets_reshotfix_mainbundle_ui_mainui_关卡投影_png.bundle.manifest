@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3108227360
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ee9686c41446a78af847e0db6230a804
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12da798fbf3a6c0c342cc56cb1a6efdf
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- "Assets/ResHotfix/MainBundle/UI/MainUI/\u5173\u5361\u6295\u5F71.png"
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3750205598
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d772277c0bf452e676afe42d9190d3f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ResHotfix/MainBundle/Audio/perfect.wav
+Dependencies: []
