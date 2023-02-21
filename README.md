@@ -1,3 +1,13 @@
+# Demo 说明
+开发用了一下午，结果打包用了一晚上......使用的BundleMaster库在android下加载不了AB包，这个问题待排查。
+
+附带可运行apk包，如果要运行工程，可能需要自己安装一下HybirdCLR，很简单，点击工具栏中的HybirdCLR-install就行。（也可能不需要，因为上述问题把热更功能剔除了）
+
+简单接入了UnityAds广告模块，截图如下。
+![1](./Demo1.jpeg)
+![2](./Demo2.jpeg)
+
+
 # 前言
 
 文档：[MixFramework文档](https://www.yuque.com/u27981712/zr68g3) (使用语雀文档，打不开的话需要关闭科学上网)
