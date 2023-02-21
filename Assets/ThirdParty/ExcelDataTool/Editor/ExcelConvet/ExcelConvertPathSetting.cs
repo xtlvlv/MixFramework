@@ -25,7 +25,7 @@ namespace XFramework.ExcelData.Editor
         /// <summary>
         /// asset数据生成路径
         /// </summary>
-        public const string ASSET_OUTPUT_PATH = "Assets/ResHotfix/MainBundle/ExcelData/";
+        public const string ASSET_OUTPUT_PATH = "MainBundle/ExcelData/";
 
         /// <summary>
         /// 属性名行

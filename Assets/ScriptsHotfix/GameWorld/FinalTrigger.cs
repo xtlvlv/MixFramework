@@ -11,7 +11,7 @@ namespace ScriptsHotfix
             {
                 AudioManager.Instance.StopSingleSound();
                 AudioManager.Instance.StopMusic();
-                AudioManager.Instance.PlaySingleSound("Assets/ResHotfix/MainBundle/Audio/levelUp.wav");
+                AudioManager.Instance.PlaySingleSound("MainBundle/Audio/levelUp");
                 EventManager.Instance.Fire<LevelDeadEvent>(new LevelDeadEvent(true));
             }
         }

@@ -7,7 +7,7 @@ using UnityEngine;
 public class ExcelDataManager : Singleton<ExcelDataManager>
 {
     
-    public const string ASSET_OUTPUT_PATH = "Assets/ResHotfix/MainBundle/ExcelData/";
+    public const string ASSET_OUTPUT_PATH = "MainBundle/ExcelData/";
     
     public Dictionary<Type, object> dic = new Dictionary<Type, object>();
 
@@ -35,7 +35,8 @@ public class ExcelDataManager : Singleton<ExcelDataManager>
         if (dic.ContainsKey(type) && dic[type] is K)
             return dic[type] as K;
 
-        var jsonName = typeof(V).Name.Replace("EDItem_", "") + ".json";
+        // var jsonName = typeof(V).Name.Replace("EDItem_", "") + ".json";
+        var jsonName = typeof(V).Name.Replace("EDItem_", "");
         var json = AssetMgr.Load<TextAsset>(ASSET_OUTPUT_PATH + jsonName);
         if (json == null) return null;
 

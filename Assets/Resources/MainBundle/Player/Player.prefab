@@ -338,8 +338,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765db8f4b297417d974c6db75a8fc28b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _line: {fileID: 0}
   Dir: {x: 0.5, y: -1, z: 0}
   Speed: 3
+  ClickSpeed: 3
+  PressSpeed: 5
+  ClickXAngle: 0.5
+  PressXAngle: 1
 --- !u!58 &8670103973570209953
 CircleCollider2D:
   m_ObjectHideFlags: 0

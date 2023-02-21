@@ -20,7 +20,7 @@ namespace ScriptsHotfix
 
         public void LoadLevel(int a_level)
         {
-            _curLevelObg = SimplePool.Spawn(AssetMgr.Load<GameObject>("Assets/ResHotfix/MainBundle/Level/Level1.prefab"), GameObject.Find("Level").transform);
+            _curLevelObg = SimplePool.Spawn(AssetMgr.Load<GameObject>("MainBundle/Level/Level1"), GameObject.Find("Level").transform);
         }
       
     }

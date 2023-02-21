@@ -7,6 +7,8 @@ namespace ScriptsHotfix
 {
     public class PlayerController: MonoBehaviour
     {
+        [SerializeField] private LineRenderer _line;
+
         public Vector3 Dir;
         public float   Speed;
         public float   ClickSpeed =3f;
@@ -22,6 +24,8 @@ namespace ScriptsHotfix
 
         private bool _isPress    = false;
         private int  _pressFrame = 0;
+
+        private int _lineIndex = 0;        
         private void Awake()
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -34,6 +38,12 @@ namespace ScriptsHotfix
         private void Start()
         {
             Dir.x = ClickXAngle;
+            // 设置颜色
+            // _line.startColor = Color.red;
+            // _line.endColor   = Color.red;
+            // _line.startWidth = 1f;
+            // _line.endWidth   = 1f;
+            _lineIndex       = 0;
         }
 
         private void Update()
@@ -49,7 +59,7 @@ namespace ScriptsHotfix
             
             if (Input.GetMouseButtonDown(0))
             {
-                AudioManager.Instance.PlaySingleSound("Assets/ResHotfix/MainBundle/Audio/ski.wav");
+                AudioManager.Instance.PlaySingleSound("MainBundle/Audio/ski");
                 Dir.x = Dir.x > 0 ? -ClickXAngle : ClickXAngle;
             }
             
@@ -67,7 +77,7 @@ namespace ScriptsHotfix
                 if (_pressFrame>5) // 固定60帧
                 {
                     Speed = PressSpeed;
-                    AudioManager.Instance.PlaySingleSoundNotStop("Assets/ResHotfix/MainBundle/Audio/ski.wav");
+                    AudioManager.Instance.PlaySingleSoundNotStop("MainBundle/Audio/ski");
                     Dir.x = Dir.x > 0 ? PressXAngle : -PressXAngle;
                 }
             }
@@ -86,7 +96,11 @@ namespace ScriptsHotfix
                 return;
             }
             _rigidbody2D.MovePosition(transform.position + Dir * Time.deltaTime * Speed);
-
+            _lineIndex++;
+            // 设置顶点数
+            _line.positionCount = _lineIndex;
+            // 设置顶点位置
+            _line.SetPosition(_lineIndex - 1, transform.position);
 
             float hasWalkPercent = (5 - transform.position.y)/35f;
             EventManager.Instance.Fire<LevelWalkEvent>(new LevelWalkEvent(hasWalkPercent));            

@@ -37,7 +37,7 @@ namespace ScriptsHotfix
             {
                 AudioManager.Instance.StopSingleSound();
                 AudioManager.Instance.StopMusic();
-                AudioManager.Instance.PlaySingleSound("Assets/ResHotfix/MainBundle/Audio/dead.wav");
+                AudioManager.Instance.PlaySingleSound("MainBundle/Audio/dead");
                 EventManager.Instance.Fire<LevelDeadEvent>(new LevelDeadEvent(false));
             }
         }

@@ -23,7 +23,7 @@ namespace ScriptsHotfix
 
         private void Start()
         {
-            AudioManager.Instance.PlayMusic("Assets/ResHotfix/MainBundle/Audio/music.wav");
+            AudioManager.Instance.PlayMusic("MainBundle/Audio/music");
         }
 
         private void OnDestroy()
@@ -34,7 +34,7 @@ namespace ScriptsHotfix
         public void Regain()
         {
             BulletTimeManager.Instance.Unpause();
-            AudioManager.Instance.PlayMusic("Assets/ResHotfix/MainBundle/Audio/music.wav");
+            AudioManager.Instance.PlayMusic("MainBundle/Audio/music");
             AdRegainCtrl.Instance.RemoveAdView();
             Player.transform.position = new Vector3(0, Player.transform.position.y+5,
                 Player.transform.position.z);
@@ -43,7 +43,7 @@ namespace ScriptsHotfix
         public void Reset()
         {
             BulletTimeManager.Instance.Unpause();
-            AudioManager.Instance.PlayMusic("Assets/ResHotfix/MainBundle/Audio/music.wav");
+            AudioManager.Instance.PlayMusic("MainBundle/Audio/music");
             CameraFollow.Instance.SetTarget(Player.transform);
             AdRegainCtrl.Instance.RemoveAdView();
             MainCtrl.Instance.RemoveMainView();

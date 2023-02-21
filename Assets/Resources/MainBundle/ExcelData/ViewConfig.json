@@ -1,1 +1,1 @@
-﻿{"datas":[{"id": 1,"PrefabPath": "Assets/ResHotfix/MainBundle/UI/MainUI/MainUI.prefab","SortingOrder": 0},{"id": 2,"PrefabPath": "Assets/ResHotfix/MainBundle/UI/AdRegainUI/AdRegainUI.prefab","SortingOrder": 100}]}
+﻿{"datas":[{"id": 1,"PrefabPath": "MainBundle/UI/MainUI/MainUI","SortingOrder": 0},{"id": 2,"PrefabPath": "MainBundle/UI/AdRegainUI/AdRegainUI","SortingOrder": 100}]}

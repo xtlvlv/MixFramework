@@ -139,11 +139,14 @@ namespace BaseFramework
             LoadMetadataForAOTAssemblies();
             
             byte[] assBytes;
-            var hotfixDll = AssetMgr.Load<TextAsset>("Assets/ResHotfix/DLL/Hotfix.dll.bytes", "DLL");
+            // var    hotfixDll = AssetMgr.Load<TextAsset>("DLL/Hotfix.dll.bytes", "DLL");
+            var    hotfixDll = AssetMgr.Load<TextAsset>("DLL/Hotfix.dll", "DLL");
+
             assBytes = (hotfixDll).bytes;
             Assembly.Load(assBytes);
             
-            var prefab = AssetMgr.Load<GameObject>("Assets/ResHotfix/MainBundle/HotEntry.prefab");
+            // var prefab = AssetMgr.Load<GameObject>("MainBundle/HotEntry.prefab");
+            var prefab = AssetMgr.Load<GameObject>("MainBundle/HotEntry");
             Object.Instantiate(prefab);
             
             // SplashCtrl.Instance.RemoveSplashView();
@@ -160,7 +163,7 @@ namespace BaseFramework
             HomologousImageMode mode = HomologousImageMode.SuperSet;
             foreach (var aotDllName in AOTMetaAssemblyNames)
             {
-                var dllAsset = AssetMgr.Load<TextAsset>("Assets/ResHotfix/DLL/"+aotDllName+".bytes", "DLL");
+                var dllAsset = AssetMgr.Load<TextAsset>("DLL/"+aotDllName+".bytes", "DLL");
                 // 加载assembly对应的dll，会自动为它hook。一旦aot泛型函数的native函数不存在，用解释器版本代码
                 LoadImageErrorCode err = RuntimeApi.LoadMetadataForAOTAssembly(dllAsset.bytes, mode);
                 Debug.Log($"LoadMetadataForAOTAssembly:{aotDllName}. mode:{mode} ret:{err}");
