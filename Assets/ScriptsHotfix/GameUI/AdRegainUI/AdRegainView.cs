@@ -1,5 +1,6 @@
 using BaseFramework.Core;
 using UnityEngine;
+using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
 namespace ScriptsHotfix
@@ -9,6 +10,7 @@ namespace ScriptsHotfix
     
         [SerializeField] private Button _regainBtn; // 复活  用于死亡后复活
         [SerializeField] private Button _resetBtn;  // 重来  用于通关后重来
+        [SerializeField] private Button _adBtn;  // 广告
 
         private bool _winRes;
         
@@ -29,7 +31,31 @@ namespace ScriptsHotfix
             {
                 GameWorld.Instance.Reset();
             }));
+            _adBtn.onClick.AddListener((() =>
+            {
+                Log.Warning("ad");
+                InterstitialAdExample.Instance.LoadAd();
+                InterstitialAdExample.Instance.ShowAd();
+            }));
         }
+        void HandleShowResult(ShowResult result)
+        {
+            if (result == ShowResult.Finished)
+            {
+                // 用户成功观看完整的广告
+            }
+            else if (result == ShowResult.Skipped)
+            {
+                // 用户跳过了广告
+            }
+            else if (result == ShowResult.Failed)
+            {
+                // 广告展示失败
+            }
+        }
+
+        
+      
 
         #region 数据
 

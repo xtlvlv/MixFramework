@@ -4,12 +4,21 @@ using System.Threading;
 using BaseFramework;
 using BaseFramework.Core;
 using UnityEngine;
+using UnityEngine.Advertisements;
 
 namespace ScriptsHotfix
 {
     // 启动入口，挂在初始prefab上
     public class GameApp: SingleObject<GameApp>
     {
+        // public static string GameId = "3260921";
+        // public static string PlacementId = "Must001";
+        
+        public static string GameId = "5174164";
+        // public static string GameId = "DemoAd";
+        public static string PlacementId = "Interstitial_Android";
+
+
         private void Awake()
         {
             Log.Info("Game start");
@@ -31,12 +40,16 @@ namespace ScriptsHotfix
             GameSingleton.AddSingleton<StorageManager>();
             GameSingleton.AddSingleton<BulletTimeManager>();
             GameSingleton.AddSingleton<LevelManager>();
+            
+            
 
             DontDestroyOnLoad(this);
         }
 
         private void Start()
         {
+            // Advertisement.Initialize(GameId, true);
+            
             LevelManager.Instance.LoadLevel(1);
         }
 
