@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using BaseFramework;
+using BaseFramework.Core;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -7,7 +8,7 @@ namespace ScriptsHotfix
 {
     public class PlayerController: MonoBehaviour
     {
-        [SerializeField] private LineRenderer _line;
+        [SerializeField] private GameObject _linePrefab;
 
         public Vector3 Dir;
         public float   Speed;
@@ -25,6 +26,7 @@ namespace ScriptsHotfix
         private bool _isPress    = false;
         private int  _pressFrame = 0;
 
+        private LineRenderer _line;
         private int _lineIndex = 0;        
         private void Awake()
         {
@@ -43,7 +45,8 @@ namespace ScriptsHotfix
             // _line.endColor   = Color.red;
             // _line.startWidth = 1f;
             // _line.endWidth   = 1f;
-            _lineIndex       = 0;
+            _lineIndex = 0;
+            _line      = Instantiate(_linePrefab).GetComponent<LineRenderer>();
         }
 
         private void Update()
@@ -131,12 +134,18 @@ namespace ScriptsHotfix
         private void OnLevelStartEvent(LevelStartEvent obj)
         {
             _start = true;
+            Destroy(_line.gameObject);
+            _lineIndex = 0;
+            _line = Instantiate(_linePrefab).GetComponent<LineRenderer>();
             BulletTimeManager.Instance.Unpause();
         }
         
         private void OnLevelDeadEvent(LevelDeadEvent obj)
         {
             _start = false;
+            Destroy(_line.gameObject);
+            _lineIndex = 0;
+            _line = Instantiate(_linePrefab).GetComponent<LineRenderer>();
             if (!obj.Win)
             {
                 BulletTimeManager.Instance.Pause();
