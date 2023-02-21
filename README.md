@@ -4,8 +4,8 @@
 附带可运行apk包，如果要运行工程，可能需要自己安装一下HybirdCLR，很简单，点击工具栏中的HybirdCLR-install就行。（也可能不需要，因为上述问题把热更功能剔除了）
 
 简单接入了UnityAds广告模块，截图如下。
-![1](./Demo1.jpeg)
-![2](./Demo2.jpeg)
+![Demo1.jpg](Demo1.jpg)
+![Demo2.jpg](Demo2.jpg)
 
 
 # 前言
